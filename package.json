@@ -1,0 +1,23 @@
+{
+  "name": "instant-prototyper",
+  "version": "0.0.1",
+  "description": "Instantaneously protoype hybrid mobile apps",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.j",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AVGP/instant-prototyper.git"
+  },
+  "dependencies": {
+    "chokidar": "0.8.1",
+    "socket.io": "0.9"
+  },
+  "author": "Martin Naumann (AVGP)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/AVGP/instant-prototyper/issues"
+  }
+}
