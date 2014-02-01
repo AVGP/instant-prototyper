@@ -1,9 +1,10 @@
 var app     = require('http').createServer(handler),
     io      = require('socket.io').listen(app),
     fs      = require('fs'),
-    watcher = require('chokidar').watch(process.argv[1]),
+    watcher = require('chokidar').watch(process.argv[2]),
     clients = [];
     
+console.log("Watching: ", process.argv[2]);
     
 var prototyperShellHTML = fs.readFileSync(__dirname + '/www/index.html');
 
